@@ -1,5 +1,5 @@
 {
-  "name": "simple_vote",
+  "name": "simple_vote_noir",
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
