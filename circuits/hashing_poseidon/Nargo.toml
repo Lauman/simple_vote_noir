@@ -1,6 +1,6 @@
 [package]
 name = "hashing_poseidon"
 type = "bin"
-authors = [""]
+authors = ["Lautaro Di Sanza"]
 
 [dependencies]
