@@ -1,0 +1,6 @@
+[package]
+name = "simple_vote"
+type = "bin"
+authors = ["Lautaro Di Sanza"]
+
+[dependencies]
