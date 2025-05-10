@@ -2,8 +2,7 @@ use std::hash::poseidon2;
 
 fn main(voter_secret: Field, vote: Field, vote_hash: pub Field) -> pub Field {
     let t = vote as u1;
-
-    assert(t | t == 1);
+    assert(t * (1 - t) == 0);
     let inputs_computed_vote_hash: [Field; 2] = [voter_secret, vote];
     let computed_vote_hash =
         poseidon2::Poseidon2::hash(inputs_computed_vote_hash, inputs_computed_vote_hash.len());
